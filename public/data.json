@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "courseName": "Introduction to C Programming",
+    "courseDescription": "Learn the fundamentals of C programming language, including variables, loops, and functions.",
+    "price": 15000,
+    "credit": 1,
+    "courseThumbnail": "https://i.ibb.co/G9548vv/Rectangle-2-2.png"
+  },
+  {
+    "id": 2,
+    "courseName": "Introduction to Algorithms",
+    "courseDescription": "Explore the basics of algorithms, data structures, and algorithm analysis.",
+    "price": 25000,
+    "credit": 2,
+    "courseThumbnail": "https://i.ibb.co/XCwR8Yf/Rectangle-2-3.png"
+  },
+  {
+    "id": 3,
+    "courseName": "Introduction to C++ for DSA",
+    "courseDescription": "Learn C++ programming with a focus on data structures and algorithms (DSA).",
+    "price": 10000,
+    "credit": 10,
+    "courseThumbnail": "https://i.ibb.co/PC2cm2d/Rectangle-2-4.png"
+  },
+  {
+    "id": 4,
+    "courseName": "Basic Data Structures",
+    "courseDescription": "Get a solid understanding of essential data structures used in computer science and programming.",
+    "price": 35000,
+    "credit": 5,
+    "courseThumbnail": "https://i.ibb.co/NWDYK7s/Rectangle-3.png"
+  },
+  {
+    "id": 5,
+    "courseName": "Introduction to OOP Python",
+    "courseDescription": "Learn object-oriented programming (OOP) in Python and build Python applications.",
+    "price": 19000,
+    "credit": 5,
+    "courseThumbnail": "https://i.ibb.co/nMb78nc/Rectangle-2.png"
+  },
+  {
+    "id": 6,
+    "courseName": "Software Engineering",
+    "courseDescription": "Explore software engineering principles, software development methodologies, and best practices.",
+    "price": 23000,
+    "credit": 2,
+    "courseThumbnail": "https://i.ibb.co/FzZmzd0/Rectangle-2-5.png"
+  },
+  {
+    "id": 7,
+    "courseName": "AWS Cloud Computing",
+    "courseDescription": "Dive into cloud computing with Amazon Web Services (AWS), including EC2, S3, and more.",
+    "price": 35000,
+    "credit": 5,
+    "courseThumbnail": "https://i.ibb.co/S5tBH4Q/Rectangle-3-1.png"
+  },
+  {
+    "id": 8,
+    "courseName": "Database (MySQL)",
+    "courseDescription": "Learn MySQL, a popular relational database management system (RDBMS), and SQL for database manipulation.",
+    "price": 19000,
+    "credit": 5,
+    "courseThumbnail": "https://i.ibb.co/JCpw9Pb/Rectangle-2-1.png"
+  },
+  {
+    "id": 9,
+    "courseName": "Problem-Solving",
+    "courseDescription": "Enhance your problem-solving skills, including algorithmic thinking and logical reasoning.",
+    "price": 23000,
+    "credit": 2,
+    "courseThumbnail": "https://i.ibb.co/7RRh5b7/Rectangle-2-6.png"
+  }
+]
