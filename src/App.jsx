@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
+import Cards from './Components/Cards/Cards'
 import './App.css';
+import CourseList from './Components/Course List/CourseList';
 
 function App() {
   const [courses, setCourses] = useState([]);
@@ -16,6 +18,11 @@ function App() {
       <nav className='m-2'>
         <h1 className='font-bold text-3xl text-center'>Course Registration</h1>
       </nav>
+      {/* Main Section */}
+      <main className='flex justify-between p-1 lg:flex-row md:flex-col flex-col'>
+        <Cards courses={courses}></Cards>
+        <CourseList></CourseList>
+      </main>
     </div>
   )
 }
