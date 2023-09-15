@@ -19,7 +19,7 @@ function App() {
         <h1 className='font-bold text-3xl text-center'>Course Registration</h1>
       </nav>
       {/* Main Section */}
-      <main className='flex justify-between p-1 lg:flex-row md:flex-col flex-col'>
+      <main className='flex justify-between lg:flex-row md:flex-col flex-col p-1'>
         <Cards courses={courses}></Cards>
         <CourseList></CourseList>
       </main>
