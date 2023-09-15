@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
-function Card({card}){
-  const {courseName, courseDescription, courseThumbnail, credit, price} = card;
+function Card({ course, getSelectedCourse }) {
+  const { courseName, courseDescription, courseThumbnail, credit, price } = course;
 
-  return(
+  return (
     <div className='bg-white flex justify-center p-2 m-2 rounded-xl w-[300px]'>
       <div>
         <img src={courseThumbnail} alt={`Thumbnail of ${courseName}`} />
@@ -13,14 +13,15 @@ function Card({card}){
           <p>Price: ${price}</p>
           <p>Credit: {credit}hr</p>
         </div>
-        <button className='bg-blue-600 text-white w-full rounded-lg p-2'>Select</button>
+        <button onClick={()=> getSelectedCourse(course)} className='bg-blue-600 text-white w-full rounded-lg p-2'>Select</button>
       </div>
     </div>
   )
 }
 
 Card.propTypes = {
-  card: PropTypes.object.isRequired
+  course: PropTypes.object.isRequired,
+  getSelectedCourse: PropTypes.func.isRequired
 }
 
 export default Card;
