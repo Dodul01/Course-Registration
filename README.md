@@ -1,4 +1,8 @@
-# Course-Registration
+## Overview
+## Course-Registration
+Website Link: https://concerned-respect.surge.sh
+
+Welcome to the Course Registration System – an intuitive platform designed to facilitate course selection for students. This system empowers users to add courses, manage their selections within specified limits, and ensures a streamlined registration process. Dive into the features that make this system a comprehensive solution for students to create their academic schedules.
 
 ### Features
 * User can add courses
